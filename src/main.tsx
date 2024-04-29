@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/register" element={<Register />} />
         <Route path="/logout" element={<Login />} />
         <Route path="/createContact" element={<CreateContact />} />
-        <Route path="/editContact/:id" element={<EditContact />} />
+        <Route path="/editContact/" element={<EditContact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
