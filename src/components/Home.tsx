@@ -13,6 +13,7 @@ interface Contact {
   gender: string;
 }
 
+
 const Home: React.FC = () => {
   const [data, setData] = useState<Contact[]>([]);
 
