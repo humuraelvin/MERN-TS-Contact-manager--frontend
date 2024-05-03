@@ -9,6 +9,7 @@ interface ContactData {
   email: string;
 }
 
+
 const EditContact: React.FC = () => {
   const [contactData, setContactData] = useState<ContactData>({
     Names: "",
