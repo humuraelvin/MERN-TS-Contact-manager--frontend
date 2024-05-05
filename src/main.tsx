@@ -9,8 +9,6 @@ import CreateContact from "./components/CreateContact.tsx";
 import EditContact from "./components/EditContact.tsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
